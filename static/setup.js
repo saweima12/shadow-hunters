@@ -16,7 +16,7 @@ $('document').ready(function() {
     }
 
     // Initial connection
-    socket = io.connect('http://' + document.domain + ':' + location.port, {
+    socket = io.connect(location.protocol + "//" + location.host, {
         reconnection: false,
         'sync disconnect on unload': true
     });

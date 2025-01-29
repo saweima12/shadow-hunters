@@ -1,332 +1,325 @@
 phrase_id,lang,text
-1,en,Enter a screen name and a room ID to join a game!
-2,en,Screen Name
-3,en,Room ID
-4,en,Number of Players: 4 to 8
-5,en,Play Time: 30-45 min
-6,en,Rules written by Max Levatich
-7,en,Found a bug? Report it here or check our code!
-8,en,Find a game on our Discord by clicking the Crate in the bottom right!
-9,en,Disconnected? Re-enter your name and room ID to rejoin your game.
-10,en,"Overview
+1,en,輸入玩家名稱和房間號碼來加入遊戲！
+2,en,玩家名稱
+3,en,房間號碼
+4,en,玩家人數：4-8人
+5,en,遊戲時長：30-45分鐘
+6,en,規則作者：Max Levatich
+7,en,發現Bug？在這裡報告或查看我們的代碼！
+8,en,點擊右下角的箱子加入我們的Discord尋找遊戲！
+9,en,斷線了？重新輸入您的名稱和房間號碼即可重新加入遊戲。
+10,en,"遊戲簡介
 
-Shadow Hunters is an online multiplayer game (based on the board game of the same name) in which players assume the identities of characters belonging to three opposing factions. The Shadows, inhabitants of the underworld, aim to destroy all Hunters, while the Hunters, protectors of the mortal realm, seek to banish the Shadows. Neutrals, caught in the crossfire, pursue their own hidden objectives.
+暗影獵人是一款線上多人遊戲（基於同名桌遊），玩家將扮演屬於三個對立陣營的角色。暗影是來自地下世界的居民，目標是消滅所有獵人；而獵人是凡間界的守護者，試圖驅逐暗影。中立者則捲入這場衝突中，追求著自己的隱藏目標。
 
-As night settles on the ruins of abandoned town at the edge of a mysterious forest, the identities of ally and enemy alike are obscured by a shifting fog, and players must discover who is friend and who is foe before striking from the darkness! "
-11,en,"How to Start a Game
+當夜幕降臨在神秘森林邊緣的廢棄小鎮廢墟上時，盟友和敵人的身份都被流動的迷霧所掩蓋，玩家必須在黑暗中發現誰是朋友誰是敵人，然後發起突襲！"
+11,en,"如何開始遊戲
 
-To play a game of Shadow Hunters, enter a username and room on the main page – clicking join will take you to a new page where you can talk to other players who have joined the same room. Once the desired number of players have joined the same room, any player can click the ‘Start Game’ button to begin a game with those players.
+要開始暗影獵人遊戲，請在主頁面輸入用戶名和房間號碼 - 點擊加入後將進入新頁面，您可以在那裡與加入同一房間的其他玩家交談。一旦所需數量的玩家加入同一房間，任何玩家都可以點擊開始遊戲""按鈕與這些玩家開始遊戲。"
+,,
+"在等待室中，可以在""開始遊戲""按鈕上方指定遊戲所需的玩家數量。如果數量大於當前房間內的玩家數量，剩餘的位置將由電腦玩家填補。（玩家數量由點擊""開始遊戲""的人提交；其他數字將被忽略）。",,
+,,
+在遊戲過程中，網路連接不穩定的玩家可能會與遊戲伺服器斷開連接。這些玩家將被重定向回主頁面，在遊戲中他們將被CPU玩家取代。斷線的玩家可以通過從主頁面用相同的用戶名重新加入同一房間來輕鬆重連並接管他們的CPU。如果所有玩家都離開遊戲，遊戲將終止。,,
+,,
+"如果玩家試圖加入一個已經在進行中的遊戲房間，他們將開始旁觀該遊戲 - 他們可以在聊天中與其他玩家交談並查看發生的事情，但不能以其他方式影響遊戲。""",,
+12,en,"遊戲版面
 
-In the waiting room, the desired number of players for the game can also be specified above the ‘Start Game’ button. If the number is greater than the number of players currently in the room, the remaining slots will be filled by computer players. (The number of players is submitted by the person who clicks ‘Start Game’; all other numbers will be disregarded).
+遊戲開始後，暗影獵人遊戲版面將出現在所有玩家面前。如上圖所示。高亮數位識別碼了其各個部分："
+13,en,您的角色頭像。頭像左上角的彩色泡泡標識您的陣營 - 紅色代表暗影，藍色代表獵人，黃色代表中立。右下角的泡泡顯示您的最大生命值。頭像周圍的彩色圓圈標識您在遊戲版面上的精靈顏色。
+14,en,在您的角色頭像下方是關於您角色的所有細節 - 他們的名字、陣營、勝利條件和特殊能力。滿足您的勝利條件即可贏得遊戲！
+15,en,您的軍火庫包含您擁有的所有裝備卡。軍火庫中的每個槽位元都顯示一件裝備的圖片，點擊它將顯示該裝備的名稱和效果。裝備卡會在適用的情況下自動使用 - 無需手動啟動。
+16,en,生命值條顯示遊戲中每個玩家當前的傷害值，由與每個玩家分配的顏色相對應的標記表示。當玩家受到傷害和治療時，標記在生命值條上上下移動。當玩家的傷害達到其角色的最大生命值時，他們死亡並退出遊戲！點擊生命值條顯示可玩角色死亡時的生命值。關注其他玩家的位置來確定他們可能是或不是哪些角色！再次點擊生命值條將關閉此彈窗。
+17,en,三個區域，每個區域包含兩個地點，佔據遊戲版面的中心，表示玩家可以佔據的不同位置。每個地點都有一個名稱和一個或多個數位，標識將玩家帶到該特定地點的骰子點數。點擊地點卡牌將顯示可以在該地點執行的行動。
+18,en,每個玩家的精靈顯示在遊戲版面上。每個精靈都有一個顏色，標識他們是特定的玩家，並與他們在生命值條上的標記相匹配。精靈在遊戲版面上的位置反映了該玩家所在的地點。點擊精靈將顯示玩家的名字和他們擁有的裝備，如果他們已經揭示身份，還會顯示其角色身份。再次點擊精靈將關閉彈窗。
+19,en,當玩家需要採取行動時，無論是因為輪到他們的回合，還是因為他們收到了隱士卡或使用了特殊能力，遊戲版面右下角都會出現按鈕提示，給玩家他們的選項。當玩家必須從多個選項中選擇時，比如選擇攻擊另一個玩家或移動到某個地點，將出現一個跨越遊戲版面中間的更大提示。點擊按鈕執行相應的動作！
+20,en,"在遊戲的任何時候，您都可以通過點擊角色頭像下方的揭示""按鈕向其他人揭示您的身份。一旦您揭示身份，就可以啟動您的特殊能力！"""
+21,en,"在您揭示身份後，揭示""按鈕將被""特殊""按鈕替代。點擊它將啟動您的特殊能力！某些角色在使用特殊能力時有限制 - 點擊按鈕仍然會啟動它，但只會在遊戲中下一個有效的時點生效！"""
+22,en,骰子，一個4面骰和一個6面骰，顯示在三個區域上方，它們顯示的數位始終反映最近一次的投擲結果。玩家將投骰子來移動、攻擊和使用某些卡牌，所以請查看骰子以瞭解結果！
+23,en,當玩家抽取卡牌時（在地獄之門、墓地、教堂和隱士小屋執行的地點行動），卡牌將出現在版面左下方（隱士卡只會顯示給給予者和接收者）。黑卡、白卡和隱士卡用它們的顏色標識，卡牌的名稱和描述與圖片一起顯示。點擊卡牌將關閉它 - 除非被點擊，否則它不會消失，因此玩家可以按自己的節奏閱讀。
+24,en,在遊戲版面的右上角有一個小按鈕，可以打開摘要視窗，總結遊戲中所有玩家的當前狀態，包括他們的位置、如果他們已經揭示身份則顯示其角色資訊，以及所有裝備。再次點擊按鈕將關閉摘要視窗。
+25,en,等待室的聊天框在遊戲開始後仍然保留。除了讓您與其他玩家交談外，聊天框還會顯示遊戲中發生的事情和其他玩家採取的行動的資訊。聊天框中的玩家名稱用相應玩家的顏色高亮顯示，其他遊戲元素，如地點或卡牌，也會高亮顯示。
+26,en,在遊戲版面上方，有按鈕可以離開房間並返回主頁面，或在新標籤頁中打開此規則書以複習規則。如果您離開活躍的遊戲，您隨時可以通過從主頁面使用相同的用戶名重新加入同一房間來重新連接，接管替代您的CPU！
+27,en,"遊戲流程
 
-In the process of playing the game, players with inconsistent Wi–Fi connections may be disconnected from the game server. Those players will be redirected back to the main page, and in the game they will be replaced by a CPU player. Disconnected players can easily reconnect and tag in for their CPUs by rejoining the same room, with the same username, from the main page. If all players leave a game, it will be terminated.
+暗影獵人以一系列回合進行。在每個玩家的回合中，他們將投骰子移動、執行地點行動，並可能攻擊其他玩家。回合順序在遊戲開始時隨機確定，遊戲將按照該回合順序繼續，直到一個或多個玩家滿足其勝利條件，此時將宣佈獲勝者並結束遊戲！
 
-If a player attempts to join a room with a game already in progress, they will begin spectating that game – they can talk with other players in the chat and see what’s happening, but cannot otherwise influence the game. "
-12,en,"The Game Board
+在遊戲開始時，玩家只知道自己的角色身份 - 他們不知道誰可能是潛在的盟友，誰是威脅。在他們的回合中，玩家可以攻擊、治療、建立軍火庫，並發現其他人的陣營，這取決於骰子的點數和抽牌的運氣。一旦玩家識別出他們的朋友和敵人，他們就可以更有策略地追求他們的勝利條件！
 
-Once the game has started, the Shadow Hunters game board will appear in front of all players. It is pictured above. Highlighted numbers identify its various pieces: "
-13,en,"Your character portrait. On the top left of the portrait is a colored bubble which identifies your faction – red for Shadows, blue for Hunters, and yellow for Neutrals. The bubble in the bottom right gives your maximum HP. A thin colored circle around your portrait identifies which colored sprite you are on the game board. "
-14,en,"Below your character portrait is all of the details about your character – their name, faction, win condition, and special ability. Satisfy your win condition to win the game! "
-15,en,"Your arsenal contains all of the equipment cards you own. Each slot in the arsenal holds a picture of one piece of equipment, and clicking on it will give the name and effect of that equipment. Equipment cards will be used automatically in the situations they apply – they do not need to be activated. "
-16,en," The health bar shows the current damage of every player in the game, identified by colored tokens corresponding to each player’s assigned color. Tokens move up and down the health bar as players take and heal damage. When a player’s damage reaches their character’s maximum HP, they die and are out of the game! Clicking on the health bar displays the HP values at which the playable characters die. Keep track of where the other players are to determine which characters they may or may not be! Clicking on the health bar again will dismiss this pop–up. "
-17,en," The three zones, each containing two areas, take up the center of the game board, and denote the different locations players can occupy. Each area has a name and one or more numbers identifying the dice rolls that will take a player to that particular area. Clicking on an area card will display the action that can be performed at that area. "
-18,en," The sprites of each player are shown on the game board. Each sprite has a color which identifies them as a particular player, and matches their token on the health bar. The location of a sprite on the game board reflects the area that player is at. Clicking on a sprite will display the player’s name and the equipment they own, as well as their character’s identity if they have revealed it. Clicking the sprite again will dismiss the pop–up. "
-19,en,"Whenever players are required to take action, either because it is their turn or because they have been given a Hermit card or have used their special ability, button prompts will appear in the bottom right corner of the game board giving the player their options. When a player must choose from many options, such as when picking another player to attack or an area to move to, a larger prompt, spanning the middle of the game board, will appear. Click on a button to take the corresponding action! "
-20,en,"At any point in the game you may reveal your identity to everyone else by clicking the “Reveal ” button below your character portrait. Once you are revealed, you can activate your special ability!"
-21,en,"After you are revealed, the “Reveal” button will be replaced by a “Special” button. Clicking on it will activate your special ability! Some characters have restrictions on when they can use their special ability – clicking the button will still activate it, but it will only come into effect at the next point in the game when it is valid!"
-22,en,"The dice, one 4–sided and one 6–sided, are shown above the three zones, and the numbers they display always reflect the most recent roll. Players will roll to move, attack, and to use some cards, so check the dice to see the results!"
-23,en,"When players draw cards (the area action taken at the Underworld Gate, Cemetery, Church, and Hermit’s Cabin), the card will appear in the bottom left of the board (Hermit cards will only appear to the giver and receiver of the card). Black, White, and Hermit cards are identified by their colors, and the name and description of the card are displayed along with a picture. Clicking on the card will dismiss it – it will not disappear unless clicked on, so players can read at their own pace."
-24,en,"In the top right of the game board is a small button that opens a summary window, summarizing the current status of all players in the game, including their location, their character info if they have revealed themselves, and all of their equipment. Clicking the button again will close the summary window."
-25,en,"The same chatbox from the waiting room will remain once the game has started. In addition to letting you talk to the other players, the chatbox will be populated with information about what’s happening in the game, and the actions that other players are taking. Player names in the chatbox are highlighted with the corresponding player’s color, and other game elements, such as areas or cards, are also highlighted."
-26,en,"Above the game board, there are buttons to leave the room and return to the main page, or to open this rulebook in a new tab for a refresher on the rules. If you leave an active game, you can always reconnect to tag in for the CPU that replaced you by rejoining the same room, using the same username, from the main page!"
-27,en,"Gameplay
+每場遊戲都有點不同 - 地點卡牌被洗混，三副牌組也是如此。角色隨機分配給每個玩家，但每場遊戲根據總玩家數量包含固定數量的各陣營角色。這些數字如下：
 
-Shadow Hunters is played in a series of turns. On each player’s turn, they will roll for movement, perform their area action, and may attack other players. The turn order is randomly determined when the game starts, and play will continue in that turn order until one or more players have satisfied their win condition, at which point the winners will be declared and the game will end!
+    4人遊戲：2個獵人，2個暗影
+    5人遊戲：2個獵人，2個暗影，1個中立
+    6人遊戲：2個獵人，2個暗影，2個中立
+    7人遊戲：2個獵人，2個暗影，3個中立
+    8人遊戲：3個獵人，3個暗影，2個中立
 
-At the beginning of the game, players are only aware of their own character identity – they do not know who might be a potential ally and who is a threat. During their turns, players can attack, heal, build up their arsenal, and discover the allegiances of others, depending on the roll of the dice and the luck of the draw. Once players have identified their friends and foes, they can play more strategically in pursuit of their win condition!
+可玩角色的列表在本頁底部提供。"
+28,en,"回合動作
+移動
 
-Every game is a little different – the area cards are shuffled, as are the three decks. Characters are distributed randomly to each player, but each game contains a set number of characters from each faction, depending on the total number of players. These numbers are as follows:
+在每個回合開始時，行動玩家必須通過投兩個骰子移動到版面上的一個地點。版面上會出現投骰子的提示，點擊時骰子將被投擲。
 
-    4–player game: 2 Hunters, 2 Shadows
-    5–player game: 2 Hunters, 2 Shadows, 1 Neutral
-    6–player game: 2 Hunters, 2 Shadows, 2 Neutrals
-    7–player game: 2 Hunters, 2 Shadows, 3 Neutrals
-    8–player game: 3 Hunters, 3 Shadows, 2 Neutrals
+骰子的點數相加，玩家移動到具有相應數位的地點卡牌。如果骰子總和為7，玩家可以選擇移動到任何地點 - 沒有標有7的地點卡牌。
 
-A list of the playable characters is provided at the bottom of this page."
-28,en,"Turn Actions
-Movement
+地點行動
 
-At the beginning of every turn, the acting player must move to an area on the board by rolling both dice. A prompt to roll the dice will appear on the board, and the dice will be rolled when it is clicked.
+一旦玩家移動到一個地點，他們可以選擇執行與該地點相關的獨特行動。每個地點的行動是：
 
-The numbers on the dice are summed, and the player moves to the area card with the corresponding number on it. If the dice sum to 7, then the player can pick an area to move to – there is no area card with a 7 on it.
-Area Actions
+    隱士小屋：抽一張隱士卡並給予另一個玩家。
+    教堂：抽一張白卡並遵循指示。
+    墓地：抽一張黑卡並遵循指示。
+    地獄之門：從三副牌組中任選一張牌抽取。
+    詭異森林：對任何玩家造成2點傷害或治療任何玩家1點傷害。
+    遠古祭壇：從任何玩家那裡偷取一張裝備卡。
 
-Once a player has moved to an area, they may choose to perform the unique action associated with that area. The actions for each area are:
+玩家移動到地點後，版面上會出現相應地點行動的提示。
 
-    Hermit’s Cabin: Draw a Hermit Card and give it to another player.
-    Church: Draw a White Card and follow the instructions.
-    Cemetery: Draw a Black Card and follow the instructions.
-    Underworld Gate: Draw a card from any of the three decks.
-    Weird Woods: Give 2 damage to any player or heal 1 damage of any player.
-    Erstwhile Altar: Steal an equipment card from any player.
+攻擊其他玩家
 
-Prompts will appear on the board for the corresponding area action after a player moves to an area.
-Attacking Other Players
+在玩家完成地點行動後，他們可以攻擊同一區域內的玩家。遊戲版面上每對地點卡牌代表一個區域。
 
-After a player has completed their area action, they may attack a player in the same zone as them. Each pair of area cards on the game board represents a single zone.
+如果玩家選擇攻擊某人，他們投兩個骰子並造成等於骰子點數差的傷害。如果差值大於零，攻擊被視為成功 - 這與某些裝備卡和特殊能力有關。
 
-If the player chooses to attack someone, they roll both dice and deal damage equal to the difference between the rolls. If the difference is greater than zero, the attack is considered successful – this is relevant for some equipment cards and special abilities.
+一旦玩家攻擊或選擇不攻擊，他們的回合結束，下一個玩家開始。"
+29,en,"卡牌
 
-Once a player has attacked, or chosen not to attack, their turn is over and the next player begins. "
-29,en,"The Cards
+暗影獵人有三副牌組，它們在遊戲版面上沒有顯示：隱士牌組、黑色牌組和白色牌組。如果玩家移動到隱士小屋、墓地、教堂或地獄之門，就可以抽這些卡牌。
 
-Shadow Hunters features three decks of cards, which are not pictured on the game board itself: the Hermit Deck, the Black Deck, and the White Deck. Players can draw these cards if they move to the Hermit’s Cabin, Cemetery, Church, or Underworld Gate.
-Hermit Cards
+隱士卡
 
-Hermit Cards are how players discover information about each other. When a player draws a Hermit Card, they read the instructions on the card, but do not follow them. They then choose a player to give the Hermit Card to – the chosen player receives the card and follows the instructions on it.
+隱士卡是玩家發現彼此資訊的方式。當玩家抽到隱士卡時，他們閱讀卡牌上的指示，但不執行。然後他們選擇一個玩家給予隱士卡 - 被選中的玩家接收卡牌並遵循其上的指示。
 
-Instructions generally take the form of, “I bet you’re a Shadow. If so, receive 2 damage! ” In this way, when the chosen player follows the instructions, the player who used the Hermit Card learns something about them!
+指示通常採用這樣的形式：「我猜你是暗影。如果是，受到2點傷害！」通過這種方式，當被選中的玩家遵循指示時，使用隱士卡的玩家就能了解到關於他們的一些資訊！
 
-If the instructions do not apply to the chosen player, then nothing happens.
-Black and White Cards
+如果指示不適用於被選中的玩家，則什麼都不會發生。
 
-Black Cards and White Cards come in two different types: Equipment and Single–Use. The type is displayed on the card when it is drawn.
+黑卡和白卡
 
-Single–Use cards must be used and discarded immediately. When a Single–Use card is drawn, players will be prompted to use the card and take any associated actions, like selecting a player to use the card on or rolling the dice.
+黑卡和白卡有兩種不同類型：裝備和一次性。類型會在抽取卡牌時顯示。
 
-Equipment cards are added to a player’s arsenal when they are drawn. A player benefits from the effects of an equipment card for as long as that card is in their arsenal (equipment can be stolen by other players). The effects of equipment cards are applied automatically when relevant, and players do not need to manually activate them. They can also be combined – multiple damage bonuses add up!
+一次性卡必須立即使用並丟棄。當抽到一次性卡時，玩家會收到提示使用該卡牌並採取任何相關行動，比如選擇要對哪個玩家使用卡牌或投骰子。
 
-White Cards are generally defensive, and some White Cards are only useful to Hunters. Black Cards, on the other hand, are generally offensive, and some of them are only beneficial to Shadows.
+裝備卡在抽取時會加入到玩家的軍火庫中。只要該卡牌在玩家的軍火庫中，玩家就能從裝備卡的效果中獲益（裝備可能被其他玩家偷取）。裝備卡的效果在相關時會自動生效，玩家不需要手動啟動它們。它們也可以疊加 - 多個傷害加成會相加！
 
-If any deck runs out of cards, the discard pile is shuffled and becomes the new draw pile for that deck. There are 16 cards in each deck. "
-30,en,"Special Abilities
+白卡通常是防禦性的，某些白卡只對獵人有用。另一方面，黑卡通常是進攻性的，其中一些只對暗影有利。
 
-At any point during the game, any player may click the button below their character portrait to reveal their identity to everyone else in the game. From this point forward, other players will be able to see information about the revealed player’s character by clicking on their sprite, or opening the game summary tab.
+如果任何牌組用完了卡牌，棄牌堆會被洗混並成為該牌組的新抽牌堆。每個牌組有16張牌。"
+30,en,"特殊能力
 
-While it is generally useful to keep one’s identity hidden, once a player has revealed they may use their character’s special ability, and the “Reveal” button will be replaced by a “Special” button. Each character in Shadow Hunters has a unique special ability.
+在遊戲的任何時候，任何玩家都可以點擊他們角色頭像下方的按鈕來向其他所有人揭示身份。從這一刻起，其他玩家可以通過點擊已揭示玩家的精靈圖像或打開遊戲摘要標籤來查看該玩家的角色資訊。
 
-Some characters have restrictions on when they can use their special ability – clicking the button will still activate it, but it will only come into effect at the next point in the game when it is valid. A list of all characters and their special abilities is provided at the bottom of this page. "
-31,en,"Death
+雖然保持身份隱藏通常是有用的，但一旦玩家揭示身份，他們就可以使用角色的特殊能力，而「揭示」按鈕將被「特殊」按鈕取代。暗影獵人中的每個角色都有一個獨特的特殊能力。
 
-When players take damage from attacks or cards, their colored token moves on the HP bar to reflect their current damage.
+某些角色在使用特殊能力時有限制 - 點擊按鈕仍然會啟動它，但它只會在遊戲中下一個符合有效條件的時點生效。所有角色及其特殊能力的列表在本頁底部提供。"""
+31,en,"死亡
 
-If a player’s damage reaches or exceeds their character’s maximum HP (displayed in a red circle next to the character portrait), they will die. If the player had any Equipment Cards, the killer chooses one to steal, and the rest are discarded.
+當玩家從攻擊或卡牌受到傷害時，他們的彩色標記會在生命值條上移動以反映其當前傷害。
 
-Dead players will have their turn skipped, but they can still win if their win conditions are satisfied (for example, if a Hunter dies, but the remaining Hunters kill all of the Shadows, all of the Hunters win).
+如果玩家的傷害達到或超過其角色的最大生命值（顯示在角色頭像旁的紅色圓圈中），他們將死亡。如果該玩家擁有任何裝備卡，殺死他的玩家可以選擇偷取一張，其餘的則被丟棄。
 
-Dead players who leave the game will not be replaced by a computer player, and will not be able to reconnect to the game. "
-32,en,"Game End
+死亡的玩家將被跳過他們的回合，但如果他們的勝利條件得到滿足，他們仍然可以獲勝（例如，如果一個獵人死亡，但剩餘的獵人殺死了所有暗影，所有獵人都獲勝）。
 
-As soon as any player has satisfied their character’s win condition, the game ends immediately and that player is declared the winner. It is possible for many players to win simultaneously, even if they are in different factions, if they all satisfy their win conditions at once.
+離開遊戲的死亡玩家將不會被電腦玩家替代，也無法重新連接到遊戲。"""
+32,en,"遊戲結束
 
-A popup will show the identities of the winning players. The chat can still be used after the game is over, but a new game can only be started by returning to the main page and joining a new room.
+一旦任何玩家滿足了其角色的勝利條件，遊戲立即結束，該玩家被宣布為獲勝者。即使玩家屬於不同陣營，如果他們同時滿足各自的勝利條件，也可能同時獲勝。
 
-We sincerely hope you enjoy playing Shadow Hunters! With love from the team,
+一個彈窗將顯示獲勝玩家的身份。遊戲結束後仍然可以使用聊天功能，但只有通過返回主頁面並加入新房間才能開始新遊戲。
 
-Amrit Rau, Gia Reyes, Vishal Patel, Max Levatich, and Joanna Wu "
-33,en,"Characters
+我們真誠希望您享受暗影獵人！來自團隊的愛，
 
-A list of all playable characters, with their names, factions, maximum HPs, win conditions, and special abilities, is provided below: "
-34,en,Name
-35,en,Faction
-36,en,Maximum HP
-37,en,Hunter
-38,en,Shadow
-39,en,Neutral
-40,en,Win Condition: All of the Shadows are dead.
-41,en,"Special Ability: Once per game, when your turn starts, you can choose a player and permanently void their special ability."
-42,en,"Special Ability: Once per game, when your turn starts, you can pick a player and damage them for the roll of a 6-sided die."
-43,en,"Special Ability: Once per game, when your turn starts, you can set the damage of any player to 7."
-44,en,"Special Ability: Once per game, when your turn starts, you can pick a player and damage them for the roll of a 4-sided die."
-45,en,Win Condition: All of the Hunters (or 3 Neutrals) are dead.
-46,en,"Special Ability: When your turn starts, you can give 3 damage to one player who is at the Underworld Gate."
-47,en,"Special Ability: When you attack, you only roll the 4-sided die and inflict the amount of damage rolled."
-48,en,"Special Ability: If you attack a player and inflict damage, you heal 2 points of your own damage."
-49,en,"Special Ability: After you are attacked, you can counterattack immediately."
-50,en,Win Condition: You're not dead when the game is over.
-51,en,"Special Ability: Once per game, you may fully heal your damage."
-52,en,Win Condition: You are either the first to die or one of the last two players alive.
-53,en,"Special Ability: When your turn starts, you heal 1 damage."
-54,en,Win Condition: You have 5 or more equipment cards.
-55,en,"Special Ability: If your attack inflicts 2 or more damage, you may steal an Equipment card from your target instead of giving damage."
-56,en,Like Shadow Hunters? Support the game by donating! Any amount is appreciated.
-57,en,Name and room ID must not exceed 10 characters
-58,en,Welcome to Shadow Hunters Room
-59,en,There's no one else here!
-60,en,Like Shadow Hunters? Join our Discord or support the game by donating!
-61,en,Players
-62,en,Start Game
-63,en,Loading visual elements...
-64,en,Arsenal
-65,en,Team
-66,en,Reveal
-67,en,Special
-68,en,Send
-69,en,Damage
-70,en,Loading game...
-71,en,Click on things to see more information! Click on the i button to close this popup.
-72,en,Please enter a name and room ID
-73,en,Name and room ID must not contain special characters
-74,en,Name and room ID must not be numbers
-75,en,Name and room ID must not be 'undefined'
-76,en,The name '{}' is reserved for gameplay. Please choose another
-77,en,Someone in the room has taken your name
-78,en,Started a game with players
-79,en,You've activated your special ability. It will take effect next time its use conditions are met.
-80,en,{} has joined the room!
-81,en,{} has joined the room as a spectator!
-82,en,{} has rejoined the room!
-83,en,You are now spectating Shadow Hunters Room
-84,en,You've rejoined your game in Shadow Hunters Room
-85,en,Other players in the room
-86,en,{} has left the room
-87,en,A computer player has taken their place!
-88,en,"You have lost connection to the server – click 'Ok' to return to the home page, where you may reconnect if you were in a game."
-89,en,You cannot start a X-player game when there are Y people in the room.
-90,en,"If you leave this page, you will be removed from the game. Are you sure you want to leave?"
-91,en,Character X At HP: Y
-92,en,Equipment
-93,en,Dead
-94,en,({}) used their special ability
-95,en,{} gave a killing cure to {}
-96,en,{}'s Lightning gave {} 4 damage!
-97,en,Your special ability was voided by {}
-98,en,{} voided {}'s special ability for the rest of the game
-99,en,Hammer
-100,en,{}'s Murder Ray gave {} 4 damage
-101,en,{} declined to use their Murder Ray.
-102,en,{} is choosing a target...
-103,en,Draw White Card
-104,en,Draw Black Card
-105,en,Draw Hermit Card
-106,en,Heal X damage
-107,en,Give X damage
-108,en,The power of the Weird Woods healed {}!
-109,en,{}'s Fortune Brooch protected them from damage!
-110,en,The power of the Weird Woods damaged {}!
-111,en,Nobody has any items for {} to steal.
-112,en,It's {}'s turn!
-113,en,The effect of {}\'s Guardian Angel wore off!
-114,en,{} is rolling for movement...
-115,en,{}'s Mystic Compass lets them roll again!
-116,en,{} is selecting an area...
-117,en,{} moves to {}!
-118,en,{} declined to perform their area action.
-119,en,Add {} to arsenal
-120,en,{} added {} to their arsenal!
-121,en,a Hermit Card
-122,en,Roll the dice!
-123,en,{} rolled {}!
-124,en,Roll for damage!
-125,en,Roll the 6-sided die!
-126,en,Roll the 4-sided die!
-127,en,{} is choosing a player...
-128,en,{} chose {}!
-129,en,{} forfeited their equipment to {}!
-130,en,{}\'s Guardian Angel shielded them from damage!
-131,en,{} strikes with their Spear of Longinus!
-132,en,Take equipment from {}
-133,en,Bob stole all of {}'s equipment using their special ability!
-134,en,{} hit {} for 5 damage!
-135,en,The werewolf is deciding whether to counterattack!
-136,en,Counterattack
-137,en,Decline
-138,en,{} is counterattacking!
-139,en,{} rolls with the 4-sided die using the Cursed Sword Masamune!
-140,en,{} declined to counterattack.
-141,en,{} forfeited their equipment to {}!
-142,en,Attack other players!
-143,en,{} is deciding to attack...
-144,en,{}'s Handgun reverses their attack range.
-145,en,{} is attacking {}!
-146,en,{}'s Machine Gun hits everyone in their attack range!
-147,en,{} stole {}'s equipment instead of dealing 4 damage!
-148,en,{} declined to attack.
-149,en,Mystic Compass
-150,en,"When you move, you may roll twice and choose which result to use."
-151,en,Talisman
-152,en,"You receive no damage from Black cards 'Bloodthirsty Spider', 'Vampire Bat', or 'Dynamite'."
-153,en,Fortune Brooch
-154,en,You receive no damage from the area card 'Weird Woods'. You can still be healed by it.
-155,en,Silver Rosary
-156,en,"If you kill another character, you take all of their equipment cards."
-157,en,Spear of Longinus
-158,en,"If you are a Hunter who has revealed their identity and your attack is successful, you give 2 points of extra damage."
-159,en,Advent
-160,en,"If you are a Hunter, you may reveal your identity. If you do, or if you are already revealed, you heal fully."
-161,en,Disenchant Mirror
-162,en,"If you are a Shadow, except for Unknown, you must reveal your identity."
-163,en,Blessing
-164,en,Pick a character other than yourself and roll the 6-sided die. That character heals an amount of damage equal to the die roll.
-165,en,Chocolate
-166,en,"If you are Allie, Agnes, Emi, Ellen, Unknown, or Ultra Soul, you may reveal your identity. If you do, or if you are already revealed, you heal fully."
-167,en,Concealed Knowledge
-168,en,"When this turn is over, it will be your turn again."
-169,en,Guardian Angel
-170,en,You take no damage from the direct attacks of other characters until the start of your next turn.
-171,en,Holy Robe
-172,en,Your attacks do 1 less damage and the amount of damage you receive from attacks is reduced by 1 point.
-173,en,Flare of Judgement
-174,en,All characters except yourself receive 2 points of damage.
-175,en,First Aid
-176,en,Place a character's damage marker to 7 (You can choose yourself).
-177,en,Holy Water of Healing
-178,en,Heal 2 points of your damage.
-179,en,Cursed Sword Masamune
-180,en,You must attack another character on your turn. This attack uses the 4-sided die.
-181,en,Machine Gun
-182,en,Your attack will affect all characters in your attack range (the dice are rolled only once).
-183,en,Handgun
-184,en,All ranges but yours become your attack range.
-185,en,Butcher Knife
-186,en,Chainsaw
-187,en,Rusted Broad Axe
-188,en,"If your attack is successful, you give 1 point of extra damage."
-189,en,Moody Goblin
-190,en,You steal an equipment card from any character.
-191,en,Bloodthirsty Spider
-192,en,You give 2 points of damage to any character and receive 2 points of damage yourself.
-193,en,Vampire Bat
-194,en,You give 2 points of damage to any character and heal 1 point of your own damage.
-195,en,Diabolic Ritual
-196,en,"If you are a Shadow, you may reveal your identity. If you do, you fully heal you damage."
-197,en,Banana Peel
-198,en,"Give one of your equipment cards to another character. If you have no equipment cards, you receive 1 point of damage."
-199,en,Dynamite
-200,en,Roll 2 dice and give 3 points of damage to all characters in the area designated by the total number rolled (nothing happens if a 7 is rolled).
-201,en,Spiritual Doll
-202,en,"Pick a character and roll the 6-sided die. If the die number is 1 to 4, you give 3 points of damage to that character. If the die number is 5 or 6, you get 3 points of damage."
-203,en,Hermit's Cabin
-204,en,Underworld Gate
-205,en,Draw a card from the deck of your choice.
-206,en,Church
-207,en,Cemetery
-208,en,Weird Woods
-209,en,Heal 1 damage or give 2 damage to any player.
-210,en,Erstwhile Altar
-211,en,Steal an equipment card from any player.
-212,en,Blackmail
-213,en,Greed
-214,en,Anger
-215,en,Slap
-216,en,Spell
-217,en,Exorcism
-218,en,Nurturance
-219,en,Aid
-220,en,Huddle
-221,en,Lesson
-222,en,Bully
-223,en,Prediction
-224,en,"I bet you are a {}. If so, you must {}."
-225,en,either give an Equipment card to the current player or receive 1 damage!
-226,en,you receive 1 damage!
-227,en,"you heal 1 damage! (However, if you have no damage, then you receive 1 damage!)"
-228,en,I bet your maximum HP is 12 or more.
-229,en,I bet your maximum HP is 11 or less.
-230,en,You must reveal your character information secretly to the current player!
-231,en,Give an equipment card
-232,en,You are a {}. Do nothing.
-233,en,You have no choice. Reveal yourself to {}.
-234,en,{} revealed their identity secretly to {}!
-235,en,{}'s Talisman protected them from damage!
+Amrit Rau, Gia Reyes, Vishal Patel, Max Levatich, 和 Joanna Wu"
+33,en,"角色
+
+以下提供所有可玩角色的列表，包括他們的名字、陣營、最大生命值、勝利條件和特殊能力："
+34,en,名稱
+35,en,陣營
+36,en,最大生命值
+37,en,獵人
+38,en,暗影
+39,en,中立
+40,en,勝利條件：所有暗影都死亡。
+41,en,特殊能力：每場遊戲一次，在你的回合開始時，你可以選擇一名玩家並永久廢除其特殊能力。
+42,en,特殊能力：每場遊戲一次，在你的回合開始時，你可以選擇一名玩家並對其造成一個六面骰子點數的傷害。
+43,en,特殊能力：每場遊戲一次，在你的回合開始時，你可以將任何玩家的傷害設為7點。
+44,en,特殊能力：每場遊戲一次，在你的回合開始時，你可以選擇一名玩家並對其造成一個四面骰子點數的傷害。
+45,en,勝利條件：所有獵人（或3名中立者）都死亡。
+46,en,特殊能力：在你的回合開始時，你可以對一名在地獄之門的玩家造成3點傷害。
+47,en,特殊能力：當你攻擊時，你只投擲四面骰並造成等同於骰子點數的傷害。
+48,en,特殊能力：如果你攻擊一名玩家並造成傷害，你治療自己2點傷害。
+49,en,特殊能力：在你被攻擊後，你可以立即反擊。
+50,en,勝利條件：當遊戲結束時你沒有死亡。
+51,en,特殊能力：每場遊戲一次，你可以完全治癒你的傷害。
+52,en,勝利條件：你是第一個死亡的玩家或最後兩名存活玩家之一。
+53,en,特殊能力：在你的回合開始時，你治療1點傷害。
+54,en,勝利條件：你擁有5張或更多裝備卡。
+55,en,特殊能力：如果你的攻擊造成2點或更多傷害，你可以選擇偷取目標的一張裝備卡而不是造成傷害。
+56,en,喜歡暗影獵人嗎？通過捐款支持遊戲！任何金額都會被感激。
+57,en,名稱和房間號碼不能超過10個字符
+58,en,歡迎來到暗影獵人房間
+59,en,這裡還沒有其他人！
+60,en,喜歡暗影獵人嗎？加入我們的Discord或通過捐款支持遊戲！
+61,en,玩家
+62,en,開始遊戲
+63,en,正在載入視覺元素...
+64,en,軍火庫
+65,en,團隊
+66,en,揭示
+67,en,特殊
+68,en,發送
+69,en,傷害
+70,en,正在載入遊戲...
+71,en,點擊物件來查看更多資訊！點擊 i 按鈕關閉此彈窗。
+72,en,請輸入名稱和房間號碼
+73,en,名稱和房間號碼不能包含特殊字符
+74,en,名稱和房間號碼不能是純數字
+75,en,名稱和房間號碼不能是 'undefined'
+76,en,名稱「{}」已被系統保留。請選擇其他名稱
+77,en,房間中已有人使用了你的名稱
+78,en,已經開始遊戲，玩家包括
+79,en,你已啟動特殊能力。它會在下次符合使用條件時生效。
+80,en,{} 已加入房間！
+81,en,{} 已以觀戰者身份加入房間！
+82,en,{} 已重新加入房間！
+83,en,你現在正在觀戰暗影獵人房間
+84,en,你已重新加入暗影獵人房間的遊戲
+85,en,房間中的其他玩家
+86,en,{} 已離開房間
+87,en,一個電腦玩家已經替代了他們！
+88,en,你已失去與伺服器的連接 – 點擊「確定」返回首頁，如果你在遊戲中可以重新連接。
+89,en,當房間內有 Y 人時，無法開始 X 人遊戲。
+90,en,如果你離開此頁面，你將被移出遊戲。確定要離開嗎？
+91,en,角色 X 生命值：Y
+92,en,裝備
+93,en,死亡
+94,en,({}) 使用了特殊能力
+95,en,{} 對 {} 使用了致命治療
+96,en,{} 的閃電對 {} 造成了 4 點傷害！
+97,en,你的特殊能力被 {} 廢除了
+98,en,{} 廢除了 {} 在遊戲剩餘時間的特殊能力
+99,en,鐵鎚
+100,en,{} 的死亡光線對 {} 造成了 4 點傷害
+101,en,{} 選擇不使用死亡光線。
+102,en,{} 正在選擇目標...
+103,en,抽取白卡
+104,en,抽取黑卡
+105,en,抽取隱士卡
+106,en,治療 X 點傷害
+107,en,造成 X 點傷害
+108,en,詭異森林的力量治癒了 {}！
+109,en,{} 的幸運胸針保護他們免受傷害！
+110,en,詭異森林的力量傷害了 {}！
+111,en,沒有玩家擁有物品可供 {} 偷取。
+112,en,現在是 {} 的回合！
+113,en,{} 的守護天使效果已消失！
+114,en,{} 正在投骰子移動...
+115,en,{} 的神祕羅盤讓他們可以重新投擲！
+116,en,{} 正在選擇地點...
+117,en,{} 移動到了 {}！
+118,en,{} 選擇不執行地點行動。
+119,en,將 {} 加入軍火庫
+120,en,{} 將 {} 加入了他們的軍火庫！
+121,en,一張隱士卡
+122,en,投擲骰子！
+123,en,{} 投出了 {}！
+124,en,投擲傷害骰！
+125,en,投擲六面骰！
+126,en,投擲四面骰！
+127,en,{} 正在選擇玩家...
+128,en,{} 選擇了 {}！
+129,en,{} 將裝備交給了 {}！
+130,en,{} 的守護天使保護他們免受傷害！
+131,en,{} 使用長矛朗基努斯發起攻擊！
+132,en,從 {} 處獲取裝備
+133,en,Bob 使用特殊能力偷取了 {} 的所有裝備！
+134,en,{} 對 {} 造成了 5 點傷害！
+135,en,狼人正在決定是否要反擊！
+136,en,反擊
+137,en,放棄
+138,en,{} 正在反擊！
+139,en,{} 使用詛咒之劍村正用四面骰投擲！
+140,en,{} 選擇不反擊。
+141,en,{} 將裝備交給了 {}！
+142,en,攻擊其他玩家！
+143,en,{} 正在決定是否攻擊...
+144,en,{} 的手槍反轉了他們的攻擊範圍。
+145,en,{} 正在攻擊 {}！
+146,en,{} 的機關槍攻擊了攻擊範圍內的所有人！
+147,en,{} 選擇偷取 {} 的裝備而不是造成 4 點傷害！
+148,en,{} 選擇不攻擊。
+149,en,神祕羅盤
+150,en,當你移動時，你可以投擲兩次骰子並選擇使用哪個結果。
+151,en,護身符
+152,en,你不會受到黑卡「嗜血蜘蛛」、「吸血蝙蝠」或「炸藥」的傷害。
+153,en,幸運胸針
+154,en,你不會受到地點卡「詭異森林」的傷害。你仍然可以被它治療。
+155,en,銀製十字架
+156,en,如果你殺死另一個角色，你獲得他們所有的裝備卡。
+157,en,長矛朗基努斯
+158,en,如果你是一個已揭示身份的獵人且你的攻擊成功，你造成額外2點傷害。
+159,en,降臨
+160,en,如果你是獵人，你可以揭示你的身份。如果你這樣做，或如果你已經揭示身份，你完全治癒傷害。
+161,en,破魔鏡
+162,en,如果你是暗影（除了 Unknown），你必須揭示你的身份。
+163,en,祝福
+164,en,選擇一個除你以外的角色並投擲六面骰。該角色治療等同於骰子點數的傷害。
+165,en,巧克力
+166,en,如果你是 Allie、Agnes、Emi、Ellen、Unknown 或 Ultra Soul，你可以揭示你的身份。如果你這樣做，或如果你已經揭示身份，你完全治癒傷害。
+167,en,隱秘知識
+168,en,當這個回合結束後，將輪到你的回合。
+169,en,守護天使
+170,en,直到你的下個回合開始前，你不會受到其他角色的直接攻擊傷害。
+171,en,聖袍
+172,en,你的攻擊傷害減少1點，你受到的攻擊傷害也減少1點。
+173,en,審判之光
+174,en,除你以外的所有角色受到2點傷害。
+175,en,急救
+176,en,將一個角色的傷害標記設為7（你可以選擇自己）。
+177,en,治療聖水
+178,en,治療你2點傷害。
+179,en,詛咒之劍村正
+180,en,你必須在你的回合攻擊另一個角色。這次攻擊使用四面骰。
+181,en,機關槍
+182,en,你的攻擊會影響你攻擊範圍內的所有角色（骰子只投擲一次）。
+183,en,手槍
+184,en,所有範圍都變成你的攻擊範圍。
+185,en,屠夫刀
+186,en,電鋸
+187,en,生鏽的大斧
+188,en,如果你的攻擊成功，你造成額外1點傷害。
+189,en,善變的小妖精
+190,en,你偷取任意角色的一張裝備卡。
+191,en,嗜血蜘蛛
+192,en,你對任意角色造成2點傷害，同時自己也受到2點傷害。
+193,en,吸血蝙蝠
+194,en,你對任意角色造成2點傷害，並治療自己1點傷害。
+195,en,惡魔儀式
+196,en,如果你是暗影，你可以揭示你的身份。如果你這樣做，你完全治癒傷害。
+197,en,香蕉皮
+198,en,將你的一張裝備卡給予另一個角色。如果你沒有裝備卡，你受到1點傷害。
+199,en,炸藥
+200,en,投擲2個骰子並對骰子總和指定區域的所有角色造成3點傷害（如果投出7則無事發生）。
+201,en,靈魂娃娃
+202,en,選擇一個角色並擲一個六面骰子。如果骰子點數是 1 到 4，你對該角色造成 3 點傷害。如果骰子點數是 5 或 6，你受到 3 點傷害。
+203,en,隱士小屋
+204,en,冥界之門
+205,en,從你選擇的牌堆中抽一張牌。
+206,en,教堂
+207,en,墓地
+208,en,詭異森林
+209,en,治療 1 點傷害或對任何玩家造成 2 點傷害。
+210,en,古老祭壇
+211,en,從任何玩家那裡偷取一張裝備卡。
+212,en,勒索
+213,en,貪婪
+214,en,憤怒
+215,en,掌摑
+216,en,咒語
+217,en,驅魔
+218,en,培育
+219,en,援助
+220,en,蜷縮
+221,en,教訓
+222,en,欺凌
+223,en,預言
+224,en,我猜你是{}
