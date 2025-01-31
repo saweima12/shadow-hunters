@@ -23,7 +23,7 @@ class ElementFactory:
         # Initialize white cards
         white_cards = [
             card.Card(
-                title="神秘羅盤",
+                title="Mystic Compass",
                 desc=("當你移動時，你可以擲骰兩次"
                       "並選擇要使用哪個結果。"),
                 color=CardType.White,
@@ -32,7 +32,7 @@ class ElementFactory:
                 use=None
             ),
             card.Card(
-                title="護身符",
+                title="Talisman",
                 desc=("你不會受到黑牌'嗜血蜘蛛'、'吸血蝙蝠'"
                       "或'炸藥'的傷害。"),
                 color=CardType.White,
@@ -41,7 +41,7 @@ class ElementFactory:
                 use=None
             ),
             card.Card(
-                title="幸運胸針",
+                title="Fortune Brooch",
                 desc=(
                     "你不會受到區域卡'詭異森林'的傷害。"
                     "你仍然可以被它治癒。"),
@@ -51,7 +51,7 @@ class ElementFactory:
                 use=None
             ),
             card.Card(
-                title="銀製十字架",
+                title="Silver Rosary",
                 desc=("如果你殺死另一個角色，"
                       "你獲得他們所有的裝備卡。"),
                 color=CardType.White,
@@ -60,7 +60,7 @@ class ElementFactory:
                 use=None
             ),
             card.Card(
-                title="朗基努斯之槍",
+                title="Spear of Longinus",
                 desc=("如果你是已揭露身分的獵人且你的攻擊成功，"
                       "你造成額外2點傷害。"),
                 color=CardType.White,
@@ -69,7 +69,7 @@ class ElementFactory:
                 use=None
             ),
             card.Card(
-                title="降臨",
+                title="Advent",
                 desc=("如果你是獵人，你可以揭露你的身分。"
                       "如果你這麼做，或如果你已經揭露身分，"
                       "你完全恢復生命值。"),
@@ -79,7 +79,7 @@ class ElementFactory:
                 use=single_use.advent
             ),
             card.Card(
-                title="破魔鏡",
+                title="Disenchant Mirror",
                 desc=("如果你是暗影陣營（除了未知者），"
                       "你必須揭露你的身分。"),
                 color=CardType.White,
@@ -88,7 +88,7 @@ class ElementFactory:
                 use=single_use.disenchant_mirror
             ),
             card.Card(
-                title="祝福",
+                title="Blessing",
                 desc=("選擇一個除了你以外的角色並擲六面骰。"
                       "該角色恢復等同於骰子點數的生命值。"),
                 color=CardType.White,
@@ -97,9 +97,9 @@ class ElementFactory:
                 use=single_use.blessing
             ),
             card.Card(
-                title="巧克力",
-                desc=("如果你是艾莉、艾格妮絲、艾咪、愛倫、"
-                      "未知者或究極靈魂，你可以揭露你的身分。"
+                title="Chocolate",
+                desc=("如果你是Allie、Agnes、Emi、Ellen、Unknown"
+                      "或Ultra Soul，你可以揭露你的身分。"
                       "如果你這麼做，或如果你已經揭露身分，"
                       "你完全恢復生命值。"),
                 color=CardType.White,
@@ -108,7 +108,7 @@ class ElementFactory:
                 use=single_use.chocolate
             ),
             card.Card(
-                title="隱秘知識",
+                title="Concealed Knowledge",
                 desc="當這個回合結束時，將會是你的回合。",
                 color=CardType.White,
                 holder=None,
@@ -116,7 +116,7 @@ class ElementFactory:
                 use=single_use.concealed_knowledge
             ),
             card.Card(
-                title="守護天使",
+                title="Guardian Angel",
                 desc=("直到你的下個回合開始前，"
                       "你不會受到其他角色的直接攻擊傷害。"),
                 color=CardType.White,
@@ -125,7 +125,7 @@ class ElementFactory:
                 use=single_use.guardian_angel
             ),
             card.Card(
-                title="聖袍",
+                title="Holy Robe",
                 desc=("你的攻擊少造成1點傷害，且你受到的"
                       "攻擊傷害減少1點。"),
                 color=CardType.White,
@@ -135,7 +135,7 @@ class ElementFactory:
                     0, amt - 1)  # applies to both attack and defend
             ),
             card.Card(
-                title="審判閃光",
+                title="Flare of Judgement",
                 desc=("除了你以外的所有角色"
                       "受到2點傷害。"),
                 color=CardType.White,
@@ -144,7 +144,7 @@ class ElementFactory:
                 use=single_use.judgement
             ),
             card.Card(
-                title="急救",
+                title="First Aid",
                 desc=("將一個角色的傷害標記設為7"
                       "（你可以選擇自己）。"),
                 color=CardType.White,
@@ -153,7 +153,7 @@ class ElementFactory:
                 use=single_use.first_aid
             ),
             card.Card(
-                title="治療聖水",
+                title="Holy Water of Healing",
                 desc="治療你2點傷害。",
                 color=CardType.White,
                 holder=None,
@@ -161,7 +161,7 @@ class ElementFactory:
                 use=single_use.holy_water
             ),
             card.Card(
-                title="治療聖水",
+                title="Holy Water of Healing",
                 desc="治療你2點傷害。",
                 color=CardType.White,
                 holder=None,
@@ -170,11 +170,10 @@ class ElementFactory:
             )
         ]
 
-
         # Initialize black cards
         black_cards = [
             card.Card(
-                title="妖刀村正",
+                title="Cursed Sword Masamune",
                 desc=(
                     "你必須在你的回合攻擊另一個角色。"
                     "這次攻擊使用四面骰。"),
@@ -184,7 +183,7 @@ class ElementFactory:
                 use=None
             ),
             card.Card(
-                title="機關槍",
+                title="Machine Gun",
                 desc=(
                     "你的攻擊會影響到攻擊範圍內的所有角色"
                     "（骰子只擲一次）。"),
@@ -194,7 +193,7 @@ class ElementFactory:
                 use=None
             ),
             card.Card(
-                title="手槍",
+                title="Handgun",
                 desc="除了你的位置外，所有位置都變成你的攻擊範圍。",
                 color=CardType.Black,
                 holder=None,
@@ -202,7 +201,7 @@ class ElementFactory:
                 use=None
             ),
             card.Card(
-                title="屠刀",
+                title="Butcher Knife",
                 desc=("如果你的攻擊成功，"
                       "你造成額外1點傷害。"),
                 color=CardType.Black,
@@ -212,7 +211,7 @@ class ElementFactory:
                 1 if (is_attack and successful) else amt
             ),
             card.Card(
-                title="電鋸",
+                title="Chainsaw",
                 desc=("如果你的攻擊成功，"
                       "你造成額外1點傷害。"),
                 color=CardType.Black,
@@ -222,7 +221,7 @@ class ElementFactory:
                 1 if (is_attack and successful) else amt
             ),
             card.Card(
-                title="鏽蝕大斧",
+                title="Rusted Broad Axe",
                 desc=("如果你的攻擊成功，"
                       "你造成額外1點傷害。"),
                 color=CardType.Black,
@@ -232,7 +231,7 @@ class ElementFactory:
                 1 if (is_attack and successful) else amt
             ),
             card.Card(
-                title="任性哥布林",
+                title="Moody Goblin",
                 desc="你偷取任意角色的一張裝備卡。",
                 color=CardType.Black,
                 holder=None,
@@ -240,7 +239,7 @@ class ElementFactory:
                 use=single_use.moody_goblin
             ),
             card.Card(
-                title="任性哥布林",
+                title="Moody Goblin",
                 desc="你偷取任意角色的一張裝備卡。",
                 color=CardType.Black,
                 holder=None,
@@ -248,7 +247,7 @@ class ElementFactory:
                 use=single_use.moody_goblin
             ),
             card.Card(
-                title="嗜血蜘蛛",
+                title="Bloodthirsty Spider",
                 desc=("你對任意角色造成2點傷害，"
                       "並且自己也受到2點傷害。"),
                 color=CardType.Black,
@@ -257,7 +256,7 @@ class ElementFactory:
                 use=single_use.bloodthirsty_spider
             ),
             card.Card(
-                title="吸血蝙蝠",
+                title="Vampire Bat",
                 desc=("你對任意角色造成2點傷害，"
                       "並治療自己1點傷害。"),
                 color=CardType.Black,
@@ -266,7 +265,7 @@ class ElementFactory:
                 use=single_use.vampire_bat
             ),
             card.Card(
-                title="吸血蝙蝠",
+                title="Vampire Bat",
                 desc=("你對任意角色造成2點傷害，"
                       "並治療自己1點傷害。"),
                 color=CardType.Black,
@@ -275,7 +274,7 @@ class ElementFactory:
                 use=single_use.vampire_bat
             ),
             card.Card(
-                title="吸血蝙蝠",
+                title="Vampire Bat",
                 desc=("你對任意角色造成2點傷害，"
                       "並治療自己1點傷害。"),
                 color=CardType.Black,
@@ -284,7 +283,7 @@ class ElementFactory:
                 use=single_use.vampire_bat
             ),
             card.Card(
-                title="惡魔儀式",
+                title="Diabolic Ritual",
                 desc=("如果你是暗影陣營，你可以揭露你的身分。"
                       "如果你這麼做，你完全恢復生命值。"),
                 color=CardType.Black,
@@ -293,8 +292,8 @@ class ElementFactory:
                 use=single_use.diabolic_ritual
             ),
             card.Card(
-                title="香蕉皮",
-                desc=("將你的一張裝備卡給予另一個角色。"
+                title="Banana Peel",
+                desc=("給予另一個角色你的一張裝備卡。"
                       "如果你沒有裝備卡，你受到1點傷害。"),
                 color=CardType.Black,
                 holder=None,
@@ -302,7 +301,7 @@ class ElementFactory:
                 use=single_use.banana_peel
             ),
             card.Card(
-                title="炸藥",
+                title="Dynamite",
                 desc=("擲兩個骰子，對擲出總和所指定區域的所有角色"
                       "造成3點傷害"
                       "（如果擲出7則無事發生）。"),
@@ -312,7 +311,7 @@ class ElementFactory:
                 use=single_use.dynamite
             ),
             card.Card(
-                title="詛咒人偶",
+                title="Spiritual Doll",
                 desc=("選擇一個角色並擲六面骰。"
                       "如果點數為1到4，"
                       "你對該角色造成3點傷害。"
@@ -327,67 +326,61 @@ class ElementFactory:
         # Initialize hermit cards
         hermit_cards = [
             card.Card(
-                title="隱者的勒索",
-                desc=("我打賭你是中立或獵人陣營。"
-                      "如果是的話，你必須給當前玩家一張裝備卡"
-                      "或受到1點傷害！"),
+                title="Hermit\'s Blackmail",
+                desc=("我打賭你是中立或獵人陣營。如果是的話，"
+                      "你必須給當前玩家一張裝備卡或受到1點傷害！"),
                 color=CardType.Hermit,
                 holder=None,
                 is_equip=False,
                 use=hermit.blackmail
             ),
             card.Card(
-                title="隱者的勒索",
-                desc=("我打賭你是中立或獵人陣營。"
-                      "如果是的話，你必須給當前玩家一張裝備卡"
-                      "或受到1點傷害！"),
+                title="Hermit\'s Blackmail",
+                desc=("我打賭你是中立或獵人陣營。如果是的話，"
+                      "你必須給當前玩家一張裝備卡或受到1點傷害！"),
                 color=CardType.Hermit,
                 holder=None,
                 is_equip=False,
                 use=hermit.blackmail
             ),
             card.Card(
-                title="隱者的貪婪",
-                desc=("我打賭你是中立或暗影陣營。"
-                      "如果是的話，你必須給當前玩家一張裝備卡"
-                      "或受到1點傷害！"),
+                title="Hermit\'s Greed",
+                desc=("我打賭你是中立或暗影陣營。如果是的話，"
+                      "你必須給當前玩家一張裝備卡或受到1點傷害！"),
                 color=CardType.Hermit,
                 holder=None,
                 is_equip=False,
                 use=hermit.greed
             ),
             card.Card(
-                title="隱者的貪婪",
-                desc=("我打賭你是中立或暗影陣營。"
-                      "如果是的話，你必須給當前玩家一張裝備卡"
-                      "或受到1點傷害！"),
+                title="Hermit\'s Greed",
+                desc=("我打賭你是中立或暗影陣營。如果是的話，"
+                      "你必須給當前玩家一張裝備卡或受到1點傷害！"),
                 color=CardType.Hermit,
                 holder=None,
                 is_equip=False,
                 use=hermit.greed
             ),
             card.Card(
-                title="隱者的憤怒",
-                desc=("我打賭你是獵人或暗影陣營。"
-                      "如果是的話，你必須給當前玩家一張裝備卡"
-                      "或受到1點傷害！"),
+                title="Hermit\'s Anger",
+                desc=("我打賭你是獵人或暗影陣營。如果是的話，"
+                      "你必須給當前玩家一張裝備卡或受到1點傷害！"),
                 color=CardType.Hermit,
                 holder=None,
                 is_equip=False,
                 use=hermit.anger
             ),
             card.Card(
-                title="隱者的憤怒",
-                desc=("我打賭你是獵人或暗影陣營。"
-                      "如果是的話，你必須給當前玩家一張裝備卡"
-                      "或受到1點傷害！"),
+                title="Hermit\'s Anger",
+                desc=("我打賭你是獵人或暗影陣營。如果是的話，"
+                      "你必須給當前玩家一張裝備卡或受到1點傷害！"),
                 color=CardType.Hermit,
                 holder=None,
                 is_equip=False,
                 use=hermit.anger
             ),
             card.Card(
-                title="隱者的巴掌",
+                title="Hermit\'s Slap",
                 desc="我打賭你是獵人陣營。如果是的話，你受到1點傷害！",
                 color=CardType.Hermit,
                 holder=None,
@@ -395,7 +388,7 @@ class ElementFactory:
                 use=hermit.slap
             ),
             card.Card(
-                title="隱者的巴掌",
+                title="Hermit\'s Slap",
                 desc="我打賭你是獵人陣營。如果是的話，你受到1點傷害！",
                 color=CardType.Hermit,
                 holder=None,
@@ -403,7 +396,7 @@ class ElementFactory:
                 use=hermit.slap
             ),
             card.Card(
-                title="隱者的咒語",
+                title="Hermit\'s Spell",
                 desc="我打賭你是暗影陣營。如果是的話，你受到1點傷害！",
                 color=CardType.Hermit,
                 holder=None,
@@ -411,7 +404,7 @@ class ElementFactory:
                 use=hermit.spell
             ),
             card.Card(
-                title="隱者的驅魔",
+                title="Hermit\'s Exorcism",
                 desc="我打賭你是暗影陣營。如果是的話，你受到2點傷害！",
                 color=CardType.Hermit,
                 holder=None,
@@ -419,7 +412,7 @@ class ElementFactory:
                 use=hermit.exorcism
             ),
             card.Card(
-                title="隱者的養育",
+                title="Hermit\'s Nurturance",
                 desc=("我打賭你是中立陣營。如果是的話，你治療1點傷害！"
                       "（但是，如果你沒有受傷，"
                       "則你受到1點傷害！）"),
@@ -429,7 +422,7 @@ class ElementFactory:
                 use=hermit.nurturance
             ),
             card.Card(
-                title="隱者的援助",
+                title="Hermit\'s Aid",
                 desc=("我打賭你是獵人陣營。如果是的話，你治療1點傷害！"
                       "（但是，如果你沒有受傷，"
                       "則你受到1點傷害！）"),
@@ -439,7 +432,7 @@ class ElementFactory:
                 use=hermit.aid
             ),
             card.Card(
-                title="隱者的擁抱",
+                title="Hermit\'s Huddle",
                 desc=("我打賭你是暗影陣營。如果是的話，你治療1點傷害！"
                       "（但是，如果你沒有受傷，"
                       "則你受到1點傷害！）"),
@@ -449,7 +442,7 @@ class ElementFactory:
                 use=hermit.huddle
             ),
             card.Card(
-                title="隱者的教訓",
+                title="Hermit\'s Lesson",
                 desc=("我打賭你的最大生命值是12或以上。"
                       "如果是的話，你受到2點傷害！"),
                 color=CardType.Hermit,
@@ -458,7 +451,7 @@ class ElementFactory:
                 use=hermit.lesson
             ),
             card.Card(
-                title="隱者的欺凌",
+                title="Hermit\'s Bully",
                 desc=("我打賭你的最大生命值是11或以下。"
                       "如果是的話，你受到1點傷害！"),
                 color=CardType.Hermit,
@@ -467,7 +460,7 @@ class ElementFactory:
                 use=hermit.bully
             ),
             card.Card(
-                title="隱者的預言",
+                title="Hermit\'s Prediction",
                 desc=("你必須秘密地向當前玩家揭露"
                       "你的角色資訊！"),
                 color=CardType.Hermit,
@@ -620,42 +613,42 @@ class ElementFactory:
         # Initialize areas
         self.AREAS = [
             area.Area(
-                name="隱者小屋",
+                name="Hermit's Cabin",
                 desc="抽一張隱者卡。",
                 domain=[2, 3],
                 action=lambda gc, player: player.drawCard(gc.hermit_cards),
                 resource_id="hermits-cabin"
             ),
             area.Area(
-                name="冥界之門",
+                name="Underworld Gate",
                 desc="從你選擇的牌堆中抽一張牌。",
                 domain=[4, 5],
                 action=area.underworld_gate_action,
                 resource_id="underworld-gate"
             ),
             area.Area(
-                name="教堂",
+                name="Church",
                 desc="抽一張白色卡牌。",
                 domain=[6],
                 action=lambda gc, player: player.drawCard(gc.white_cards),
                 resource_id="church"
             ),
             area.Area(
-                name="墓地",
+                name="Cemetery",
                 desc="抽一張黑色卡牌。",
                 domain=[8],
                 action=lambda gc, player: player.drawCard(gc.black_cards),
                 resource_id="cemetery"
             ),
             area.Area(
-                name="詭異森林",
+                name="Weird Woods",
                 desc="治療1點傷害或對任意玩家造成2點傷害。",
                 domain=[9],
                 action=area.weird_woods_action,
                 resource_id="weird-woods"
             ),
             area.Area(
-                name="往日祭壇",
+                name="Erstwhile Altar",
                 desc="偷取任意玩家的一張裝備卡。",
                 domain=[10],
                 action=area.erstwhile_altar_action,

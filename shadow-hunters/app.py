@@ -199,6 +199,7 @@ def socket_ask(form, data, user_id, room_id):
 def socket_tell(str, args, gc, room_id, client=None):
     if not client:
         client = (room_id,)
+    
     data = color_format(str, args, gc)
     packet = {'strings': data[0], 'colors': data[1]}
     socketio.emit('message', packet, room=client[0])
